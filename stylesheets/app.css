@@ -1,0 +1,36 @@
+/* Foundation v2.1.4 http://foundation.zurb.com */
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: home
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+body {
+   padding-bottom: 60px;
+}
+
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+footer.row {
+   text-align: center;
+   margin-top: 80px;
+   border-top: solid 1px #E6E6E6;
+   padding-top: 20px;
+}
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+
