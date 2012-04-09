@@ -1,3 +1,3 @@
 @app = window.app ? {}
 
-jQuery ->
+$(document).ready ->

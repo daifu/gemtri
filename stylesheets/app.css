@@ -35,7 +35,39 @@ footer.row {
 
 
 /* -----------------------------------------
-   Page Name 2
+  conference page
 ----------------------------------------- */
+div.conf-content p {
+   line-height: 25px;
+}
+div.conf-content p, div.conf-content ul, div.conf-content span{
+   font-size: 15px;
+}
+div.conf-content ul {
+   margin-left: 40px;
+}
+div.subtitle {
+   margin-bottom: 10px;
+}
+div.social-icons {
+  height: 45px;
+  border: 1px solid #eee;
+  padding: 5px 0;
+  -moz-box-shadow: 0px 2px 8px rgba(204,204,204,0.7);
+  -webkit-box-shadow: 0px 2px 8px rgba(204,204,204,0.7);
+  box-shadow: 0px 2px 8px rgba(204,204,204,0.7);
+
+}
+.ToolKitStyle {
+	background-color: #2DBEFF;
+}
 
 
+div.social-icons span {
+  vertical-align: top;
+  line-height: 45px;
+  height: 45px;
+  display:inline-block;
+  font-size: 17px;
+  margin-left: 8px;
+}
