@@ -11,18 +11,18 @@
 	<!-- Set the viewport width to device width for mobile -->
 	<meta name="viewport" content="width=device-width" />
 
-	<title>Welcome to The Conference</title>
+	<title>VEMEC Conference</title>
   
 	<!-- Included CSS Files -->
-   <link rel="stylesheet" href="stylesheets/foundation.css">
-   <link rel="stylesheet" href="stylesheets/flickrbomb.css">
-   <link rel="stylesheet" href="stylesheets/app.css">
+   <link rel="stylesheet" href="../stylesheets/foundation.css">
+   <link rel="stylesheet" href="../stylesheets/flickrbomb.css">
+   <link rel="stylesheet" href="../stylesheets/app.css">
 
    <!--Google Web Font-->
    <link href='http://fonts.googleapis.com/css?family=Cambo' rel='stylesheet' type='text/css'>
 
 	<!--[if lt IE 9]>
-		<link rel="stylesheet" href="stylesheets/ie.css">
+		<link rel="stylesheet" href="../stylesheets/ie.css">
 	<![endif]-->
 
 
@@ -31,7 +31,7 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-   <script src="javascripts/foundation.js"></script>
+   <script src="../javascripts/foundation.js"></script>
 </head>
 <body>
 
@@ -41,7 +41,7 @@
       <div class="row">
          <div class="twelve columns" style="margin: 10px 0 10px;">
             <a href="http://www.publichealth.va.gov">
-               <img src="images/VA_Banner.png" alt="United States Department of Veterans Affairs" title="United States Department of Veterans Affairs" />
+               <img src="../images/VA_Banner.png" alt="United States Department of Veterans Affairs" title="United States Department of Veterans Affairs" />
             </a>
          </div>
       </div>
@@ -49,8 +49,8 @@
       <div class="row subtitle">
          <div class="twelve columns">
             <h4 style="text-align:center;font-family: 'Cambo', serif;">Advancing &amp; Redefining Community for Emergency Management</h4>
-            <img src="images/header_shadow.png" width="100%" class="hide-on-phones half-opacity" alt=""/>
-            <hr class="show-on-phones">
+            <!-- img src="images/header_shadow.png" width="100%" class="hide-on-phones half-opacity" id="header-shadow" alt=""/-->
+            <hr>
          </div>
       </div>
 
@@ -61,30 +61,31 @@
                <a href="#about" class="active">About</a>
                </dd>
                <dd>
+               <a href="/conference/registration.php">Registration</a>
+               </dd>
+               <dd>
                <a href="#schedule">Schedule</a>
                </dd>
                <dd>
                <a href="#travel">Travel</a>
                </dd>
                <dd>
-               <a href="#registration">Registration</a>
-               </dd>
-               <dd>
                <a href="#faq">FAQ</a>
                </dd>
             </dl>
-            <!-- social icons -->
-            <div class="social-icons">
-               <span>Share this on:</span>
-               <img src="images/socials/facebook.png" alt="facebook" width="20%" height="20%"/>
-               <img src="images/socials/twitter.png" alt="facebook"  width="20%" height="20%"/>
+            <!-- Save it on your calendar -->
+            <div class="save-the-date hide-on-phones">
+               <a href="#save-the-date" class="white medium button radius" style="padding-left: 30px;vertical-align:bottom">
+                  <img src="../images/Calendar.png" alt="calendar" style="float:left;" />
+                  Save the date on your calendar
+               </a>
             </div>
          </div>
          <!-- End With Side bar for Non-mobile -->
 
          <div class="nine columns">
             <!-- Insert the banner for the website -->
-            <img src="images/conference/ARC_Olive_OrangeLetter_SemiFinalist.png" alt="" width="100%" height="100%"/>
+            <img src="../images/conference/ARC_Olive_OrangeLetter_SemiFinalist.png" alt="" width="100%" height="100%"/>
          </div>
 
          <div class="nine columns conf-content">
@@ -129,8 +130,10 @@
             <p>The conference will also include a variety of presentations in
             format, including:</p>
             <ul>
-               <li>•	<span class="blue label">Selected abstracts; Poster sessions; Presentations;
-                  Breakout sessions</span></li>
+               <li>•	<span class="blue label">Selected abstracts</span>;
+                     <span class="blue label">Poster sessions</span>;
+                     <span class="blue label">Presentations</span>;
+                     <span class="blue label">Breakout sessions</span></li>
             </ul>
          </div>
 
@@ -144,13 +147,13 @@
                   <a href="#about" class="active">About</a>
                </dd>
                <dd>
-                  <a href="#event">Event</a>
+                  <a href="#registration">Registration</a>
+               </dd>
+               <dd>
+                  <a href="#schedule">Schedule</a>
                </dd>
                <dd>
                   <a href="#travel">Travel</a>
-               </dd>
-               <dd>
-                  <a href="#registration">Registration</a>
                </dd>
                <dd>
                   <a href="#faq">FAQ</a>
@@ -179,11 +182,11 @@
 
 
 	<!-- Included JS Files -->
-  <script src="javascripts/jquery.min.js"></script>
-  <script src="javascripts/modernizr.foundation.js"></script>
-  <script src="javascripts/foundation.js"></script>
-  <script src="javascripts/app.js"></script>
-  <script src="javascripts/jquery.flickrbomb.min.js"></script>
-  <script src="javascripts/app.js"></script>
+  <script src="../javascripts/jquery.min.js"></script>
+  <script src="../javascripts/modernizr.foundation.js"></script>
+  <script src="../javascripts/foundation.js"></script>
+  <script src="../javascripts/app.js"></script>
+  <script src="../javascripts/jquery.flickrbomb.min.js"></script>
+  <script src="../javascripts/app.js"></script>
 </body>
 </html>

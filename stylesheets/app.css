@@ -49,19 +49,23 @@ div.conf-content ul {
 div.subtitle {
    margin-bottom: 10px;
 }
-div.social-icons {
+div.social-icons{
   height: 45px;
   border: 1px solid #eee;
   padding: 5px 0;
+  overflow: hidden;
   -moz-box-shadow: 0px 2px 8px rgba(204,204,204,0.7);
   -webkit-box-shadow: 0px 2px 8px rgba(204,204,204,0.7);
   box-shadow: 0px 2px 8px rgba(204,204,204,0.7);
 
 }
-.ToolKitStyle {
-	background-color: #2DBEFF;
-}
 
+div.save-the-date {
+   margin-bottom: 20px;
+  -moz-box-shadow: 0px 2px 8px rgba(204,204,204,0.7);
+  -webkit-box-shadow: 0px 2px 8px rgba(204,204,204,0.7);
+  box-shadow: 0px 2px 8px rgba(204,204,204,0.7);
+}
 
 div.social-icons span {
   vertical-align: top;
@@ -70,4 +74,10 @@ div.social-icons span {
   display:inline-block;
   font-size: 17px;
   margin-left: 8px;
+}
+.lt-ie7 #header-shadow {
+   display:none;
+}
+hr {
+   margin: 5px 0 5px;
 }
